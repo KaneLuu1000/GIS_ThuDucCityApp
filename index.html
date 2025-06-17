@@ -65,12 +65,13 @@
         [10.81802604425394, 106.7749350839349],
         12
       );
+       leafletMap.attributionControl.addAttribution('Licensed by &copy; <a href="KL">ESSENTIAL STORES DURING COVID-19 PANDEMIC BY LIU KANE</a>');
+
 
       L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 18,
-  
+
       }).addTo(map);
-      varName = L.control.attribution({prefix: '<span class="AttributionClass">KL</span>'}).addTo(map);
 
 
       var autolinker = new Autolinker({
