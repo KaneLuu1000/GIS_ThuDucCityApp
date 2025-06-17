@@ -71,6 +71,8 @@
         attribution:
           '<p>Thu Duc City Essential Store during Pandemic - Made by Liu Kane </p>',
       }).addTo(map);
+      varName = L.control.attribution({prefix: '<span class="AttributionClass">KL</span>'}).addTo(map);
+
 
       var autolinker = new Autolinker({
         truncate: { length: 30, location: 'smart' },
